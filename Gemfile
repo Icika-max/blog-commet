@@ -44,7 +44,6 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 gem "sassc-rails"
-gem 'better_errors', '~> 2.10', '>= 2.10.1'
 gem 'bulma-rails', '~> 0.9.4'
 gem 'simple_form', '~> 5.2'
 
@@ -67,6 +66,8 @@ group :development do
   gem "spring"
   gem 'guard', '~> 2.18'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  gem 'better_errors', '~> 2.10', '>= 2.10.1'
+
 end
 
 group :test do
